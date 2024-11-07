@@ -1,0 +1,11 @@
+print('='*40)
+print('Mencari Nilai Terbesar Dan Terkecil')
+print('='*40)
+n1=int(input('masukan nilai ke1: '))
+n2=int(input('masukan nilai ke2: '))
+n3=int(input('masukan nilai ke3: '))
+
+big=max(n1,n2,n3)
+min=min(n1,n2,n3)
+print(f'nilai terbesar adalah {big}')
+print(f'nilai terkecil adalah {min}') 
