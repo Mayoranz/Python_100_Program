@@ -2,17 +2,17 @@ print('='*40)
 print('Password')
 print('='*40)
 
-USERNAMA = 'hidayatandhika4@gmail.com'
+USERNAM = 'hidayatandhika4@gmail.com'
 PASSWORD = '12345678'
 
 user = input('Masukan Username: ')
 pw = input('Masukan Password: ')
-true = USERNAMA and PASSWORD
+true = USERNAM and PASSWORD
 
 #blok perjabangan
-if user != USERNAMA :
+if user != USERNAM :
     print ('username tidak di temukan')
-elif user == USERNAMA and pw != PASSWORD :
+elif user == USERNAM and pw != PASSWORD :
     print ('password slah')
 else:
-  print ('selamat datang',USERNAMA)
+  print ('selamat datang',USERNAM)
